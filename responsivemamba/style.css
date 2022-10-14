@@ -237,10 +237,10 @@ header{
 	font-weight: bold;
 }
 .maintext p{
-	font-size: 1rem;
-	margin-top: 1.5rem;
-	letter-spacing: 0.5px;
-	line-height: 1.3rem;
+	font-size: 0.9rem;
+	margin-top: 1.3rem;
+	letter-spacing: 0.3px;
+	line-height: 1.2rem;
 	color: #f7f5f5;
 }
 .readbut{
@@ -350,7 +350,25 @@ header{
 }
 
 }
+/*-----finish firstsection-----*/
 
-
+.secondsection{
+	
+}
+.aboutsection{
+	padding: 3rem 0rem;
+	width: 100%;
+}
+.aboutimg{
+	width: 100%;
+}
+.abimg{
+	width: 100%;
+	padding: 0.5rem 0.2rem;
+	box-shadow: black 10px 0px 0px ;
+}
+.aboutcontent{
+	width: 50%;
+}
 
 
