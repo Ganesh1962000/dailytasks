@@ -4,7 +4,7 @@
 }
 .container{
 	margin: auto;
-	width: 95%;
+	width: 100%;
 	font-family: raleway,sans-serif;
 }
 .topbar{
@@ -14,7 +14,7 @@
 .topbarbox{
 	display:flex;
 	text-decoration: none;
-	align-items: center;
+	justify-content: center;
 }
 .topbarleft{
 	display: flex;
@@ -39,7 +39,7 @@
 }
 /*top-end*/
 header{
-	padding: 16px 0px;
+	padding: 16px 10px;
 	align-items: center;
 }
 .headersection{
@@ -50,7 +50,7 @@ header{
 .title a{
 	text-decoration: none;
 	color: #5b5ba0;
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 3px;
 	font-weight: normal;
 }
@@ -353,22 +353,74 @@ header{
 /*-----finish firstsection-----*/
 
 .secondsection{
-	
+	padding: 3.5rem 0rem;
 }
 .aboutsection{
-	padding: 3rem 0rem;
 	width: 100%;
+	display:;
+	box-shadow: black 0px 0px 0px;
 }
 .aboutimg{
 	width: 100%;
 }
 .abimg{
-	width: 100%;
-	padding: 0.5rem 0.2rem;
-	box-shadow: black 10px 0px 0px ;
+	width: 94.5%;
+	padding: 10px 10px;
+	box-shadow: black 0px 0px 0.5px;
 }
 .aboutcontent{
-	width: 50%;
+	width: 100%;
+	padding: 2.5rem 0rem;
 }
+.headabout h1{
+	font-size: 2rem;
+	text-align: center;
+	margin: 0.5rem 0rem 1.8rem 0rem;
+	color: #36366a;
+}
+.headabout p{
+	font-size: 1.1rem;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	line-height: 1.4rem;
+	padding: 0rem 3rem;
+	color: #968f8f;
+	margin-bottom: 1.5rem; 
+}
+.loremabout{
+	display: flex;
+	padding: 0rem 3rem;
+}
+.abouticon i{
+	height: 5vh;
+	width: 5%%;
+	color: red;
+}
+.loremabout h4{
+	font-size: ;
+	margin: ;
+	
+}
+.loremabout p{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
