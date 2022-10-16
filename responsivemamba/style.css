@@ -67,7 +67,7 @@ header{
 	
 .container{
 	margin: auto;
-	width: 90%;
+	width: 92%;
 	font-family: raleway,sans-serif;
 }
 .topbar{
@@ -353,12 +353,12 @@ header{
 /*-----finish firstsection-----*/
 
 .secondsection{
-	padding: 3.5rem 0rem;
+	padding: 3rem 0rem;
 }
 .aboutsection{
 	width: 100%;
 	display:;
-	box-shadow: black 0px 0px 0px;
+	box-shadow: gray 0px 0px 6px 0.1px ;
 }
 .aboutimg{
 	width: 100%;
@@ -366,7 +366,6 @@ header{
 .abimg{
 	width: 94.5%;
 	padding: 10px 10px;
-	box-shadow: black 0px 0px 0.5px;
 }
 .aboutcontent{
 	width: 100%;
@@ -374,18 +373,21 @@ header{
 }
 .headabout h1{
 	font-size: 2rem;
+	font-weight: bold;
 	text-align: center;
 	margin: 0.5rem 0rem 1.8rem 0rem;
 	color: #36366a;
 }
 .headabout p{
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-style: italic;
 	letter-spacing: 0.5px;
 	line-height: 1.4rem;
-	padding: 0rem 3rem;
-	color: #968f8f;
-	margin-bottom: 1.5rem; 
+	color:  #666;
+	margin-bottom: 0.5rem; 
+}
+.atccontainer{
+	padding: 0rem 2.5rem;
 }
 .loremabout{
 	display: flex;
@@ -394,24 +396,193 @@ header{
 	padding-top: 2rem;
 }
 .abouticon{
-	width: 30%;
+	padding-top: 1.2rem;
 }
 .abouticon i{
-	font-size: 2rem;
-	border-radius: 10px;
-	width: 100%;
-	height: 10vh;
-	background-color: silver;
+	font-size: 1.6rem;
+	border-radius: 5px;
+	padding: 1.4rem;
+	background-color: #f1f7fb;
 	color: blue;
-	margin: 0rem 1.5rem 4rem 2.5rem;
+	margin-right: 1.5rem;
+}
+.abouticon i:hover{
+	color: white;
+	background-color: blue;
 }
 .lorem{
-	width: 70%;
+	margin-bottom: 0.5rem
 }
 .lorem h4{
-	font-size: 1.3rem;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	color: #424267;
 }
-
+.lorem p{
+	font-size: 0.9rem;
+	margin-bottom: 0.8rem;
+	color: #666;
+	line-height: 1.3rem;
+	letter-spacing: 0.2px;
+}
+/*-768-*/
+@media(min-width:768px){
+	
+.secondsection{
+	padding: 3rem 0rem;
+}
+.aboutsection{
+	width: 100%;
+	display:;
+	box-shadow: gray 0px 0px 6px 0.1px ;
+}
+.aboutimg{
+	width: 100%;
+}
+.abimg{
+	width: 97%;
+	padding: 10px 10px;
+}
+.aboutcontent{
+	width: 100%;
+	padding: 2.5rem 0rem;
+}
+.headabout h1{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0.5rem 0rem 1.8rem 0rem;
+	color: #36366a;
+}
+.headabout p{
+	font-size: 1rem;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	line-height: 1.4rem;
+	color:  #666;
+	margin-bottom: 0.5rem; 
+}
+.atccontainer{
+	padding: 0rem 2.3rem;
+}
+.loremabout{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 2rem;
+}
+.abouticon{
+	padding-top: 1.2rem;
+}
+.abouticon i{
+	font-size: 1.6rem;
+	border-radius: 5px;
+	padding: 1.4rem;
+	background-color: #f1f7fb;
+	color: blue;
+	margin-right: 1.5rem;
+}
+.abouticon i:hover{
+	color: white;
+	background-color: blue;
+}
+.lorem{
+	margin-bottom: 0.5rem
+}
+.lorem h4{
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	color: #424267;
+}
+.lorem p{
+	font-size: 0.9rem;
+	margin-bottom: 0.8rem;
+	color: #666;
+	line-height: 1.3rem;
+	letter-spacing: 0.2px;
+}
+}
+/*-1024-*/
+@media(min-width:1024px){
+	
+.secondsection{
+	padding: 3.8rem 0rem;
+}
+.aboutsection{
+	width: 100%;
+	display: flex;
+	box-shadow: gray 0px 0px 6px 0.1px ;
+}
+.aboutimg{
+	width: 100%;
+}
+.abimg{
+	width: 94.5%;
+	padding: 15px 15px;
+}
+.aboutcontent{
+	width: 100%;
+	padding: 4.5rem 0rem;
+}
+.headabout h1{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0rem 0rem 1.5rem 0rem;
+	color: #36366a;
+}
+.headabout p{
+	font-size: 1rem;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	line-height: 1.3rem;
+	color:  #666;
+	margin-bottom: 0.5rem; 
+}
+.atccontainer{
+	padding: 0rem 2.3rem;
+}
+.loremabout{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 2rem;
+}
+.abouticon{
+	padding-top: 1.2rem;
+}
+.abouticon i{
+	font-size: 1.6rem;
+	border-radius: 5px;
+	padding: 1.4rem;
+	background-color: #f1f7fb;
+	color: blue;
+	margin-right: 1.5rem;
+}
+.abouticon i:hover{
+	color: white;
+	background-color: blue;
+}
+.lorem{
+	margin-bottom: 0.5rem
+}
+.lorem h4{
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	color: #424267;
+}
+.lorem p{
+	font-size: 0.9rem;
+	margin-bottom: 0.8rem;
+	color: #666;
+	line-height: 1.3rem;
+	letter-spacing: 0.2px;
+}
+}
+/*-----secondsection finish-----*/
 
 
 
