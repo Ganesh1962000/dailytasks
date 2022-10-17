@@ -1,0 +1,20 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.heading h6{
+	color: blue;
+}
+.heading h2{
+	color: #606098;
+}
+#btns{
+    border-radius:20px;
+    padding:5px 30px;
+}
+#card2{
+    border:none;
+}
+ul li{
+	list-style-type: none;
+}
