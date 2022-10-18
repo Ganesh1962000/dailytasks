@@ -761,8 +761,8 @@ header{
 .servicon{
 	font-size: 2rem;
 	color: blue;
-	height: 24vh;
-	width: 22%;
+	height: 70px;
+	width: 70px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -800,33 +800,21 @@ header{
 	flex-wrap: wrap;
 }
 .servicescard{
-	width: 50%;
-	text-align: center;
+	width: 46%;
+	padding: 0rem 0rem 0rem 0rem;
 }
 }
 /*--1024--*/
 @media(min-width:1024px){
 
-.servicon{
-	font-size: 2rem;
-	color: blue;
-	height: 12vh;
-	width: 21%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	border-radius: 50%;
-	box-shadow: silver 0px 0px 20px;
-}	
 .servicesflex{
 	display: flex;
 	flex-wrap: wrap;
 }
 .servicescard{
-	width: 33%;
+	width: 31%;
 	text-align: center;
-	padding: 0rem 0rem 2.2rem 0rem;
+	padding: 0rem 0.5rem 2.2rem 0.5rem;
 }
 }
 
@@ -1026,7 +1014,7 @@ header{
 	text-align: center;
 }
 .questionflex{
-	
+	display: ;
 }
 .questionpage{
 	padding: 1rem 0.6rem 1rem 0.6rem;
@@ -1049,23 +1037,24 @@ header{
 @media(min-width:768px){
 
 .questionflex{
-	
+	width: 100%;
 }
 .questionpage{
+	width: 100%;
 	padding: 1rem 0.6rem 1rem 0.6rem;
 	margin-bottom: 1.5rem;
 }
 }
 /*--1024--*/
-@media(min-width:768px){
+@media(min-width:1024px){
 
 .questionflex{
 	display: flex;
 	flex-wrap: wrap;
 }
 .questionpage{
-	width: 50%;
-	padding: 1rem 0rem 1rem 0rem;
+	width: 47%;
+	padding: 1rem 0.7rem 1rem 0.5rem;
 	margin-bottom: 1.5rem;
 }
 }
@@ -1267,7 +1256,7 @@ header{
 	font-size: 0.7rem;
 }
 .ournewsletter{
-	padding: 0.8rem 0.5rem;
+	padding: 1rem 0rem 1rem 0.5rem;
 }
 .ournewsletter h2{
 	font-size: 1rem;
@@ -1280,22 +1269,96 @@ header{
 	letter-spacing: 0.5px;
 	margin-bottom: 1.8rem;
 }
+.ipbut{
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+}
 .subinput{
-	padding: 11px 24px;
+	padding: 0.9rem 1.4rem;
 }
 .subbutton{
-	padding: 12.3px 40px;
+	padding: 1rem 1.4rem;
 	background-color: #428bca;
 	border: none;
 }
+
 /*--768--*/
+@media(min-width:768px){
+	
+.mambameuflex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.mambabox-1{
+	width: 48%;
+}
+}
+/*--1024*/
 
+@media(min-width:1024px){
+	
+.mambameuflex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.mamba{
+	width: 28%;
+}
+.usfullink{
+	width: 18%;
+}
+.usfullink2{
+	width: 18%;
+}
+.ournewsletter{
+	width: 32%;
+}
+.ipbut{
+	width: 100%;
+}
+.subinput{
+	padding: 0.8rem 0rem;
+	width: 61%;
+}
+.subbutton{
+	padding: 0.9rem 0rem;
+	width: 32%;
+	background-color: #428bca;
+	border: none;
+}
+}
 
+/*-----tenthsection finish-----*/
 
-
-
-
-
+footer{
+	background-color: #587187;
+	padding: 2.2rem 0rem;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+footer h3{
+	font-size: 0.9rem;
+	margin-bottom: 1.2rem;
+}
+footer h3 span{
+	font-weight: bold;
+}
+footer p{
+	font-size: 0.8rem;
+}
+footer p span{
+	color: #9eccf4;
+}
+/*--768--*/
+@mediya(min-width:768px){
+	
+}
+/*--1024--*/
+@mediya(min-width:1024px){
+	
+}
 
 
 
