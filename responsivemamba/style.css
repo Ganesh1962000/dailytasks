@@ -800,9 +800,8 @@ header{
 	flex-wrap: wrap;
 }
 .servicescard{
-	width: 48%;
+	width: 50%;
 	text-align: center;
-	padding: 0rem 0rem 2.2rem 0rem;
 }
 }
 /*--1024--*/
@@ -1012,6 +1011,296 @@ header{
 	padding: 0rem 0rem;
 }
 }
+
+/*-----seventhsection finish*/
+
+.eighthsection{
+	background-color: rgb(245, 249, 252);
+	padding: 3.5rem 0rem 2rem 0rem;
+}
+.questions h1{
+	font-size: 2rem;
+	color: #5c768d;
+	font-weight: 540;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.questionflex{
+	
+}
+.questionpage{
+	padding: 1rem 0.6rem 1rem 0.6rem;
+	margin-bottom: 1.5rem;
+}
+.questionpage h3{
+	font-size: 1.3rem;
+	font-weight: 550;
+	line-height: 1.5rem;
+	color: #1f3548;
+}
+.questionpage p{
+	font-size: 1rem;
+	font-weight: 540;
+	line-height: 1.5rem;
+	color: #1f3548;
+	margin-top: 1rem;
+}
+/*--768--*/
+@media(min-width:768px){
+
+.questionflex{
+	
+}
+.questionpage{
+	padding: 1rem 0.6rem 1rem 0.6rem;
+	margin-bottom: 1.5rem;
+}
+}
+/*--1024--*/
+@media(min-width:768px){
+
+.questionflex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.questionpage{
+	width: 50%;
+	padding: 1rem 0rem 1rem 0rem;
+	margin-bottom: 1.5rem;
+}
+}
+
+/*----eighthsection finish-----*/
+
+.ninethsection{
+	padding: 3.5rem 0rem 3.5rem 0rem;
+}
+.contact h1{
+	font-size: 2rem;
+	color: #5c768d;
+	font-weight: 540;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.contactus{
+	padding: 1rem 0rem 1rem 0rem;
+}
+.conbox{
+	margin: 0.5rem 1rem 2.3rem 1rem;
+	padding: 2rem 1rem;
+	text-align: center;
+	box-shadow: gray 0px 0.5px 5px;	
+}
+.contacticon i{
+	font-size: 1.5rem; 
+	font-weight: bold;
+	border-radius: 50%;
+	border: 2px dotted #428bca;
+	color: #428bca;
+	padding: 0.8rem;
+}
+.conbox h2{
+	margin-top: 2rem;
+	margin-bottom: 0.8rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #666;
+}
+.conbox p{
+	font-size: 0.9rem;
+	color: #666;
+	line-height: 1.5rem;
+}
+.contactform{
+	margin: 0rem 1rem 0rem 1em;
+	padding: 2rem 0rem;
+	text-align: center;
+	box-shadow: gray 0px 0.5px 5px;	
+}
+.nameemail{
+	width: 100%;
+}
+.name{
+	width: 80%;
+	margin-bottom: 1rem;
+	padding: 0.7rem 0.5rem;
+	border-color: #007aff;
+}
+.email{
+	width: 80%;
+	padding: 0.7rem 0.5rem;
+	margin-bottom: 1rem;
+	border-color: #007aff;
+}
+.subject{
+	width: 100%;
+}
+.text{
+	width: 80%;
+	padding: 0.7rem 0.5rem;
+	margin-bottom: 1rem;
+	border-color: #007aff;
+}
+.areatext{
+	width: 100%;
+}
+.message{
+	width: 80%;
+	padding: 0.7rem 0.5rem 5rem 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	border-color: #007aff;
+}
+.contbutton{
+	width: 100%;
+}
+.formbutton{
+	width: 160px;
+	padding: 15px 15px;
+	background-color: #428bca;
+	color: white;
+	border: none;
+	font-size: 1rem;
+}
+/*--768--*/
+@media(min-width:768px){
+	
+
+}
+/*--1024--*/
+@media(min-width:1024px){
+	
+.contactus{
+	padding: 1rem 0rem 0rem 0rem;
+	display: flex;
+}
+.ouraddress{
+	width: 45%;
+}
+.emailus{
+	width: 25%;
+}
+.callus{
+	width: 25%
+}
+.nameemail{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	gap: 20px;
+}
+.name{
+	width: 38%;
+	margin-bottom: 1rem;
+	padding: 0.7rem 0.5rem;
+	border-color: #007aff;
+}
+.email{
+	width: 38%;
+	padding: 0.7rem 0.5rem;
+	margin-bottom: 1rem;
+	border-color: #007aff;
+}
+}
+
+/*-----ninethsection finish------*/
+
+.tenthsection{
+	background-color: #5c768d;
+	padding: 3.5rem 0rem 1.6rem 0rem;
+	color: white;
+	border-bottom: 0.5px solid #67839c;
+}
+.mambameuflex{
+	
+}
+.mamba{
+	padding: 1rem 0rem 1rem 0.5rem;
+}
+.mamba h1{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1.3rem;
+}
+.mamba h3{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+.mamba h4{
+	font-size: 0.9rem;
+	margin-top: 1.7rem;
+}
+.mamba p{
+	font-size: 0.9rem;
+	line-height: 1.7rem;
+	margin-bottom: 1rem;
+}
+.mamba span{
+	font-weight: bold;
+}
+.mambaicon{
+	padding: 0.5rem 0rem ;
+}
+.mambaicon i{
+	border-radius: 50%;
+	background-color: #768fa6;
+	padding: 0.7rem;
+	color: white;
+}
+.mambaicon i:hover{
+	background-color: #007aff;
+	transition: ease all 1s;
+}
+.usfullink{
+	padding: 1rem 0rem 1rem 0.5rem;
+}
+.usfullink h1{
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+.usfullink li{
+	line-height: 2rem;
+	font-size: 0.9rem;
+}
+.usfullink li i{
+	color: aqua;
+	font-size: 0.7rem;
+}
+.ournewsletter{
+	padding: 0.8rem 0.5rem;
+}
+.ournewsletter h2{
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+}
+.ournewsletter p{
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.5px;
+	margin-bottom: 1.8rem;
+}
+.subinput{
+	padding: 11px 24px;
+}
+.subbutton{
+	padding: 12.3px 40px;
+	background-color: #428bca;
+	border: none;
+}
+/*--768--*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
