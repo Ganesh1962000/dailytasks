@@ -598,7 +598,7 @@ header{
 	padding: 2rem 1rem;
 }
 .sixcol1 h4{
-	color: #06ddb9;
+	color: #9eccf4;
 	font-size: 1.5rem;
 	margin-bottom: 1.5rem;
 }
@@ -758,17 +758,21 @@ header{
 	text-align: center;
 	padding: 0rem 0.5rem 2.2rem 0.5rem;
 }
+.servicescard:hover .servicon{
+	box-shadow: 0 0 20px #428bca;
+	transition: all 1s ease ;
+}
 .servicon{
 	font-size: 2rem;
 	color: blue;
-	height: 70px;
-	width: 70px;
+	height: 80px;
+	width: 80px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
 	border-radius: 50%;
-	box-shadow: silver 0px 0px 20px;
+	box-shadow: grey 0 0 5px;
 }
 .servicescard h2{
 	font-size: 1.2rem;
@@ -866,10 +870,50 @@ header{
 	transition: ease all 1s;
 }
 .pofowrap{
-	margin: 1.5rem 0.5rem 1.7rem 0.5rem;
+	margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+	position: relative;
+}
+.p-img-content{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5rem;
+	opacity: 0;
+	color: white;
+	background-color: #625c5c47;
+	text-align: center;
+	line-height: 2rem;
+}
+.pofowrap:hover .p-img-content{
+	opacity: 1;
+	transition: 1s ease;
 }
 .pofoimg{
 	width: 100%;
+}
+.p-img-content h2{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.p-img-content p{
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+}
+.p-img-icon i{
+	font-size: 1.5rem;
+	color: #428bca;
+	background-color: white;
+	border-radius: 50%;
+	letter-spacing: 2px;
+	margin: 0px 5px 0px 5px;
+	padding: 0.4rem;
+}
+.p-img-icon i:hover{
+	color: white;
+	background-color: #428bca;
+	transition: 1s ease;
 }
 /*--768--*/
 @media(min-width:768px){
@@ -877,10 +921,11 @@ header{
 .portfolioioflex{
 	display: flex;
 	flex-wrap: wrap;
+	gap: 2%;
 }
 .pofowrap{
-	width: 45%;
-	margin: 1rem 1rem;
+	width: 46%;
+	margin-bottom: 0rem;
 }
 }
 /*--1024--*/
@@ -889,15 +934,11 @@ header{
 .portfolioioflex{
 	display: flex;
 	flex-wrap: wrap;
-	margin: auto;
 }
 .pofowrap{
 	width: 30%;
-	padding: 0.8rem 0.8rem;
-	margin: auto;
 }
 }
-
 /*-----sixsection finish-----*/
 
 .seventhsection{
@@ -921,26 +962,33 @@ header{
 	line-height: 1.4rem;
 	letter-spacing: 0.5px;
 }
-.teambox{
-	
-}
 .teamcard{
+	position: relative;
 	margin-bottom: 3.5rem;
 }
 .teamimages{
-	padding: 0rem 0.5rem;
+	margin: 0rem 0.5rem;
+	position:;
+	overflow: hidden;
 }
 .teamimg{
 	width: 100%;
 	border-radius: 5px;
 }
+.teamimg:hover{
+	transform: scale(1.1);
+	transition: all 3s ease;
+}
 .teamdetail{
-	margin: -5rem 1.8rem 0rem 1.8rem;
-	text-align: center;
-	padding: 1rem 0rem;
 	color: white;
-	background-color: #4f4f60;
-	border-radius: 5px;
+	text-align: center;
+	position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    padding: 15px 0;
+    border-radius: 4px;
 }
 .teamdetail h2{
 	font-size: 1.1rem;
@@ -970,7 +1018,7 @@ header{
 	letter-spacing: 6px;
 }
 .teamicon i:hover{
-	color: liteblue;
+	color: #428bca;
 	transition: ease all 1s;
 }
 /*--768--*/
@@ -1078,7 +1126,7 @@ header{
 	margin: 0.5rem 1rem 2.3rem 1rem;
 	padding: 2rem 1rem;
 	text-align: center;
-	box-shadow: gray 0px 0.5px 5px;	
+	box-shadow: 0 0 10px #00000042;	
 }
 .contacticon i{
 	font-size: 1.5rem; 
@@ -1113,13 +1161,13 @@ header{
 	width: 80%;
 	margin-bottom: 1rem;
 	padding: 0.7rem 0.5rem;
-	border-color: #007aff;
+	border-color:;
 }
 .email{
 	width: 80%;
 	padding: 0.7rem 0.5rem;
 	margin-bottom: 1rem;
-	border-color: #007aff;
+	border-color:;
 }
 .subject{
 	width: 100%;
@@ -1128,17 +1176,23 @@ header{
 	width: 80%;
 	padding: 0.7rem 0.5rem;
 	margin-bottom: 1rem;
-	border-color: #007aff;
+	border-color:;
 }
 .areatext{
 	width: 100%;
+}
+input:focus{
+	outline:none;
+}
+textarea:focus{
+	outline:none;
 }
 .message{
 	width: 80%;
 	padding: 0.7rem 0.5rem 5rem 0.5rem;
 	margin-bottom: 1rem;
 	font-size: 1rem;
-	border-color: #007aff;
+	border-color:;
 }
 .contbutton{
 	width: 100%;
@@ -1182,13 +1236,13 @@ header{
 	width: 38%;
 	margin-bottom: 1rem;
 	padding: 0.7rem 0.5rem;
-	border-color: #007aff;
+	border-color: ;
 }
 .email{
 	width: 38%;
 	padding: 0.7rem 0.5rem;
 	margin-bottom: 1rem;
-	border-color: #007aff;
+	border-color: ;
 }
 }
 
@@ -1281,6 +1335,7 @@ header{
 	padding: 1rem 1.4rem;
 	background-color: #428bca;
 	border: none;
+	color: white;
 }
 
 /*--768--*/
