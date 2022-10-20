@@ -1,0 +1,10 @@
+.nbt{
+	background-color: #ee7843;
+}
+.active{
+	color: #ee7843 !important;
+}
+.px-2 a:hover{
+	color: #ee7843 !important;
+	transition: all 0.5s ease;
+}
