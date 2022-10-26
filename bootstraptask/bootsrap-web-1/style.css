@@ -61,6 +61,110 @@
 /*-----firstsection finish-----*/
 /*-----scondsection start-----*/
 
+.secondsection{
+	padding: 2rem 0rem 0rem 0rem;
+}
+.abouttitle h1{
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+.abouttitle p{
+	color: #5a6570;
+	font-weight: 495;
+	padding-bottom: 1.2rem;
+}
+.abicon{
+	font-size: 3.1rem;
+	color: #f39e7a;
+}
+.coull h3{
+	color: #7a6960;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.coull p{
+	color: #5a6570;
+	font-weight: 490;
+}
+/*--1024--*/
+@media(min-width:1024px){
+	
+.abouttitle h1{
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+}
+
+/*-----secondsection finish-----*/
+
+.thirdsection{
+	background-color: #fef8f5;
+	padding-bottom: 4rem;
+}
+.serv{
+	text-align: center;
+	padding: 2.6rem 0rem;
+}
+.serv h3{
+	color: #c2b7b1;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.serv h1{
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+.serv h1::after{
+	content:"";
+	position: relative;
+	height: 2px;
+	width: 60px;
+	background-color: #eb5d1e;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+	top: 15px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.servcard{
+	border-radius: 15px;
+	text-align: center;
+	background-color: white;
+	padding: 1rem;
+	margin-bottom: 2.5rem;
+}
+.servcard:hover{
+	border-bottom: 3px solid #ef7f4d;
+	transition: ease all 0.5s;
+}
+.servicon{
+	padding-top: 1rem;
+	font-size: 3rem;
+	color: #ef7f4d;
+}
+.servcard h5{
+	padding-top: 0.8rem;
+	font-weight: 490;
+	font-weight: 490;
+}
+.servcard p{
+	padding-top: 0.6rem;
+	color: #5a6570;
+	font-weight: 495;
+	padding-bottom: 1rem;
+	line-height: 1.8rem;
+}
+
+/*-----thirdsection finish-----*/
+
+
+
+
 
 
 
