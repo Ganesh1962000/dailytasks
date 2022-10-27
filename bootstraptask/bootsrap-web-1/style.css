@@ -141,6 +141,8 @@
 .servcard:hover{
 	border-bottom: 3px solid #ef7f4d;
 	transition: ease all 0.5s;
+	transform: translatey(-5px);
+	margin-top: -15px;
 }
 .servicon{
 	padding-top: 1rem;
@@ -197,31 +199,40 @@
 	font-weight: bold;
 }
 .pofoimgs{
+}
+.port-img{
 	position: relative;
 }
 .pofohoer{
-	content:"";
-	background-color: rgba(122, 105, 96, 0.6);
 	text-align: center;
 	position: absolute;
-	color: #eb5d1e;
-	background-color: white;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	opacity: ;
-	text-align: center;
-	padding: 1rem;
-	line-height: 2rem;
+	background-color: #00000047;
+	color: white;
+	padding: 7rem;
+	opacity: 0;
+}
+.port-img:hover .pofohoer{
+	opacity: 1;
+	transition: all ease 1s;
 }
 .pofoicon{
 	font-size: 1.2rem;
 	color: #eb5d1e;
 	background-color: white;
-	
+	border-radius: 50%;
+	padding: 0.8rem;
+	letter-spacing: 5rem;
+	margin-bottom: 2rem;
 }
-
+.pofoicon:hover{
+	background-color: #eb5d1e;
+	color: white;
+	transition: all ease 1s;
+}
 /*------fourthsection finish------*/
 
 .fivethsection{
@@ -258,7 +269,108 @@
 }
 .faqdrop{
 	background-color: #fef8f5;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #343a40;
 }
+.faqdrop:hover{
+	color: #eb5d1e;
+	transition: all ease 1s;
+}
+
+/*-----fivethsection finish-----*/
+
+.sixthsection{
+	padding-bottom: 5rem;
+}
+.team{
+	text-align: center;
+	padding: 2.6rem 0rem;
+}
+.team h3{
+	color: #c2b7b1;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.team h1{
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+.team h1::after{
+	content:"";
+	position: relative;
+	height: 2px;
+	width: 60px;
+	background-color: #eb5d1e;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+	top: 15px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+/*-----sixthsection finish-----*/
+
+.seventhsection{
+	padding-bottom: 5rem;
+	background-color: #fef8f5;
+}
+.client{
+	text-align: center;
+	padding: 2.6rem 0rem;
+}
+.client h3{
+	color: #c2b7b1;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.client h1{
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+.client h1::after{
+	content:"";
+	position: relative;
+	height: 2px;
+	width: 60px;
+	background-color: #eb5d1e;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+	top: 15px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
