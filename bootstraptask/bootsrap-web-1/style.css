@@ -267,6 +267,9 @@
 	right: 0;
 	left: 0;
 }
+.faqfaq{
+	background-color: #fef8f5;
+}
 .faqdrop{
 	background-color: #fef8f5;
 	font-size: 1.2rem;
@@ -277,6 +280,43 @@
 	color: #eb5d1e;
 	transition: all ease 1s;
 }
+.faqdrop .accordion-button:not(.collapsed)::before{
+	background-image: url(../image/faq.svg);
+	transform:rotate(-180deg);
+}
+.faqdrop .accordion-button::before{
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin: 0px 22px 0px 0px;
+	content: "";
+	background-image: url(../image/faq.svg);
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform .2s ease-in-out;
+}
+.faqdrop .accordion-button::after{
+	display: none;
+}
+.faqdrop .accordion-button::after{
+	z-index: 3;
+	border-color:red;
+	outline: 0;
+	box-shadow: none;
+}
+.faqdrop .accordion-button:not(.collapsed){
+	color: #000;
+	background-color: #e7f1ff;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.faqdrop .accordion-body{
+	padding-left: 17%;
+	padding-left: 17%;
+}
+
+
+
+
 
 /*-----fivethsection finish-----*/
 
@@ -347,17 +387,63 @@
 	left: 0;
 }
 
+/*-----seventhsection finish------*/
+
+.eighthsection{
+	padding-bottom: 5rem;
+}
+.contact{
+	text-align: center;
+	padding: 2.6rem 0rem;
+}
+.contact h3{
+	color: #c2b7b1;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.contact h1{
+	font-size: 2.1rem;
+	font-weight: bold;
+	color: #4e4039;
+}
+.contact h1::after{
+	content:"";
+	position: relative;
+	height: 2px;
+	width: 60px;
+	background-color: #eb5d1e;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+	top: 15px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
 
 
 
 
+/*-----eighthsection finish------*/
 
-
-
-
-
-
-
+.ninethsection{
+	padding: 3rem 0rem 2rem 0rem;
+	background-color: #fef8f5;
+}
+.newsletter{
+	text-align: center;
+}
+.newsletter h3{
+	font-size: 1.5rem;
+	padding-bottom: 1.3rem;
+}
+.newsletter p{
+	font-size: 1rem;
+	padding-bottom: 1.3rem;
+}
+.inptbut{
+	width: 100%;
+}
 
 
 
