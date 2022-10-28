@@ -16,6 +16,14 @@
 	background-color: #fef8f5;
 	border-bottom: 2px solid #fcebe3;
 }
+.firstsection img{
+	position: relative;
+	animation: mymove 2s infinite;
+}
+@keyframes mymove{
+	from {bottom: 0px}
+	to {bottom: 15px}
+}
 .maintitle h1{
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -40,7 +48,7 @@
 @media(min-width:1024px){
 	
 .maintitle{
-	padding: 2.5rem 0rem 3.5rem 0.8rem;
+	padding: 0rem 0rem 0rem 0.8rem;
 }
 .maintitle h1{
 	font-size: 3rem;
@@ -141,7 +149,7 @@
 .servcard:hover{
 	border-bottom: 3px solid #ef7f4d;
 	transition: ease all 0.5s;
-	transform: translatey(-5px);
+	transform: translatey(-3px);
 	margin-top: -15px;
 }
 .servicon{
@@ -420,14 +428,45 @@
 	right: 0;
 	left: 0;
 }
-
-
-
+.info{
+	border-top: 3px solid #eb5d1e;
+	border-bottom: 3px solid #eb5d1e;
+	padding: 2rem 1.5rem;
+}
+.lemrow h3{
+	color: #7a6960;
+}
+.lemrow p{
+	color: #ab9d95;
+}
+.contacticon{
+	font-size: 1.5rem;
+}
+.coicon{
+	height: 45px;
+	width: 45px;
+	background-color: #fbecee;
+	color: #eb5d1e;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.lemrow:hover .coicon{
+	color: white;
+	background-color: #eb5d1e;
+	transition: all ease 1s;
+}
+.formdiv{
+	border-top: 3px solid #eb5d1e;
+	border-bottom: 3px solid #eb5d1e;
+	padding: 2rem 1.5rem;
+}	
 
 /*-----eighthsection finish------*/
 
 .ninethsection{
-	padding: 3rem 0rem 2rem 0rem;
+	padding: 3rem 0rem 3rem 0rem;
 	background-color: #fef8f5;
 }
 .newsletter{
@@ -441,17 +480,50 @@
 	font-size: 1rem;
 	padding-bottom: 1.3rem;
 }
-.inptbut{
-	width: 100%;
+.newsletter .newsbutton{
+	width: 120px;
+	padding: 0.6rem 0rem;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	background-color: #eb5d1e;
+}
+.newsletter .newsbutton:hover{
+	background-color: #c64a12;
+	transition: all ease-in-out 1s;
+}
+.newsletter .input{
+	width: 65%;
+	padding: 0.6rem 0rem;
+	border-radius: 3px;
+	border: none;
 }
 
+/*----768----*/
 
+@media(min-width:768px){
+	
+.newsletter .input{
+	width: 80%;
+	padding: 0.6rem 0rem;
+	border-radius: 3px;
+	border: none;
+}
+}
 
+/*----1024----*/
 
+@media(min-width:1024px){
 
+.newsletter .input{
+	width: 38%;
+	padding: 0.6rem 0rem;
+	border-radius: 3px;
+	border: none;
+}	
+}
 
-
-
+/*-----ninethsection finish-------*/
 
 
 
