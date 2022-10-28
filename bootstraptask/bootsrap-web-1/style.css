@@ -461,6 +461,9 @@
 	border-top: 3px solid #eb5d1e;
 	border-bottom: 3px solid #eb5d1e;
 	padding: 2rem 1.5rem;
+}
+.contbut {
+	border-radius: 0;
 }	
 
 /*-----eighthsection finish------*/
@@ -525,13 +528,56 @@
 
 /*-----ninethsection finish-------*/
 
-
-
-
-
-
-
-
-
-
+.overall{
+	padding: 3rem 0rem;
+}
+.links .ull i{
+	color: #eb5d1e;
+	font-size: 0.8rem;
+}
+.links a{
+	text-decoration: none;
+	line-height: 2.5rem;
+	color: #5c5c5c;
+}
+.links a:hover{
+	color: #eb5d1e;
+	transition: all ease 1s;
+}
+.links h3{
+	font-weight: normal;
+	padding-bottom: 0.8rem;
+}
+.links p{
+	line-height: 0.8rem;
+	color: #5c5c5c;
+}
+.links .emailss{
+	margin-top: 3rem;
+}
+.links span{
+	font-weight: bold;
+}
+.links2 h5{
+	
+}
+.links2 p{
+	padding-top: 1rem;
+	line-height: 1.5rem;
+	color: #5c5c5c;
+}
+.social .bi{
+	font-size: 1.2rem;
+	color: black;
+	letter-spacing: 20px;
+	background-color: #eb5d1e;
+	color: white;
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	justify-content: center;
+	align-items: center;
+	diaplay: flex;
+	
+}
 
