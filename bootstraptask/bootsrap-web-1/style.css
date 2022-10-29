@@ -8,6 +8,9 @@
 	color: #ee7843 !important;
 	transition: all 0.5s ease;
 }
+.firstnav{
+	
+}
 
 /*-----header finish-----*/
 /*-----firstsection start-----*/
@@ -463,7 +466,14 @@
 	padding: 2rem 1.5rem;
 }
 .contbut {
-	border-radius: 0;
+	border-radius: 5px;
+	background-color: #eb5d1e;
+	font-weight: normal;
+}
+.contbut:hover{
+	background-color: #f08383;
+	transition: all ease 1s;
+	color: white;
 }	
 
 /*-----eighthsection finish------*/
@@ -532,13 +542,18 @@
 	padding: 3rem 0rem;
 }
 .links .ull i{
-	color: #eb5d1e;
-	font-size: 0.8rem;
+	color: #f39e7a;
+	font-size: 0.6rem;
+	padding-left: 0;
+}
+.ull{
+	padding: 0px 0px 0px 0px;
 }
 .links a{
 	text-decoration: none;
-	line-height: 2.5rem;
+	line-height: 2.2rem;
 	color: #5c5c5c;
+	font-size: 1rem;
 }
 .links a:hover{
 	color: #eb5d1e;
@@ -566,18 +581,48 @@
 	line-height: 1.5rem;
 	color: #5c5c5c;
 }
-.social .bi{
-	font-size: 1.2rem;
-	color: black;
-	letter-spacing: 20px;
-	background-color: #eb5d1e;
+.socialicon{
+	height: 35px;
+	width: 35px;
 	color: white;
+	background-color: #eb5d1e;
 	border-radius: 50%;
-	height: 45px;
-	width: 45px;
 	justify-content: center;
 	align-items: center;
-	diaplay: flex;
-	
+	display: flex;
 }
+.socialicon a{
+	color: white;
+}
+.socialicon:hover{
+	background-color: #f08383;
+	transition: all ease 1s;
+}
+
+/*-----tenthsection finish-------*/
+
+.footer{
+	padding: 1.5rem 0rem 1rem 0rem;
+	background-color: #fef8f5;
+}
+.fotl span{
+	font-weight: bold;
+}
+.fotr span{
+	color: #eb5d1e;
+}
+.fotr{
+	justify-content: right;
+	padding-left: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
 
