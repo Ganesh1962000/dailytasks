@@ -2,10 +2,13 @@
 	margin: 0;
 }
 .firstnav{
-	background: white;
+	background: rgba(0, 0, 0, 0.9);
+}
+.firstnav a{
+	color: white!important;
 }
 .nav-ul a{
-	color: red !important;
+	color: white !important;
 }
 #banner{
 	background-image: url(image/ganesh.jpg);
@@ -22,8 +25,8 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(to right,red,black);
-	opacity: 0.5;
+	background: linear-gradient(to right,black,red,black,black);
+	opacity: 0.9;
 }
 .pannartitle{
 	position: absolute;
@@ -34,4 +37,38 @@
 }
 .pannartitle h1{
 	font-size: 3rem;
+}
+#about{
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+}
+.at-cont h4::after{
+	content: "";
+	position: absolute;
+	margin: auto;
+	background-color: red;
+	border-radius: 5px;
+	width: 10%;
+	height: 2px;
+	top: ;
+	left: 15%;
+	align-items: center;
+	
+}
+.at-img{
+	width: 100%;
+	filter: grayscale(50%);
+}
+.at-detail ul{
+	list-style-type: none;
+	padding: 0;
+	line-height: 2rem;
+}
+.at-detail iconify-icon{
+	color: red;
+}
+.scoure{	
+	background-color: silver;
+	text-align: center;
+	padding: 3rem;
 }
