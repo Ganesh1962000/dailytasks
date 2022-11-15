@@ -42,7 +42,7 @@
 	background: rgba(0, 0, 0, 0.9);
 	color: white;
 }
-.at-cont h4::after{
+.at-cont h5::after{
 	content: "";
 	position: absolute;
 	margin: auto;
@@ -67,8 +67,27 @@
 .at-detail iconify-icon{
 	color: red;
 }
+.about-scourse{
+	background: rgba(0, 0, 0, 0.9);
+}
 .scoure{	
-	background-color: silver;
+	background-color: rgba(204, 204, 204, 0.1);
+	color: white;
 	text-align: center;
+	padding:;
+}
+#resume{
+	background: rgba(0, 0, 0, 0.9);
+	color: white;	
+	padding: 3rem 0rem;
+}
+#services{
+	background: rgba(0, 0, 0, 0.9);
+	color: white;	
+	padding: 3rem 0rem;
+}
+.six-box{
+	text-align: center;
+	background-color: rgba(204, 204, 204, 0.1);
 	padding: 3rem;
 }
