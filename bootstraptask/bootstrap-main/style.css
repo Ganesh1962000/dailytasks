@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	
+}
+@media(min-width:390px){
+	
+.mainmenu{
+	background: linear-gradient(to right,#766dff,#88f3ff );
+	height: auto;
+	display: none;
+}
+}
+@media(min-width:768px){
+	
+.mainmenu{
+	background: linear-gradient(to right,#766dff,#88f3ff );
+	height: auto;
+	display: none;
+}
+}
+.mainmenu{
+	background: rgba(0, 0, 0, 0.9);
+	height: auto;
+	display: block;
+}
+/**/
+.menu-im-se{
+	padding: 1.5rem; 
+}
+.menu-img{
+	border-radius: 50%;
+	margin-top: 6vh;
+	align-items: center;
+	border: 10px solid silver;
+}
+.banner{
+}
+.main-banner{
+	background-image: url(image/ganesh.jpg);
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	z-index: 0;	
+}
+.main-banner::after{
+	content: "";
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(255, 144, 0, 0.9);
+	opacity: 0.9;
+}
+.banner-title{
+	text-align: center;
+	margin-top: 60vh;
+	z-index: 1;
+	color: white;
+}
+.banner-title h1{
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+.banner-title p{
+	font-size: 2rem;
+}
+/**/
+#firstsection{
+	background: #ffdbb0;
+}
+.abo::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.ab-me ul{
+	list-style-type: none;
+	padding: 0;
+	line-height: 2.5rem;
+}
+.ab-me li{
+	font-size: 1.2rem;
+}
+.ab-me span{
+	font-weight: bold;
+}
+.ab-me iconify-icon{
+	color: red;
+	font-size: 1.1rem;
+	align-items: center;
+}
