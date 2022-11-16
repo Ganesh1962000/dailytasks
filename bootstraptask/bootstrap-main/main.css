@@ -1,16 +1,45 @@
 *{
 	margin: 0;
+	
 }
-
-.mainmenu{
-	background: rgba(174, 236, 255, 0.9);
-	overflow: hidden;
-	height: 100vh;
+.header{
 	position: fixed;
-	color: rgb(252, 252, 252);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+	
+}
+.second{
+	width: 90%;
+	overflow-y: auto;
+	overflow: hidden;
 }
 
-/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .menu-im-se{
 	padding: 1.5rem; 
 }
@@ -21,9 +50,6 @@
 	border: 10px solid silver;
 }
 .banner{
-	position: absolute;
-	right: 0;
-	background-color: #ffdbb0;
 }
 .main-banner{
 	background-image: url(image/ganesh.jpg);
@@ -55,7 +81,7 @@
 .banner-title p{
 	font-size: 2rem;
 }
-/**/
+/*
 #firstsection{
 	background: #ffdbb0;
 }
@@ -86,3 +112,4 @@
 	font-size: 1.1rem;
 	align-items: center;
 }
+*/
