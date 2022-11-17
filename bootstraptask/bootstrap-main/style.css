@@ -3,16 +3,25 @@
 }
 
 .mainmenu{
-	background: rgba(174, 236, 255, 0.9);
+	background:rgba(255, 144, 0, 0.9) ;
 	overflow: hidden;
 	height: 100vh;
 	position: fixed;
-	color: rgb(252, 252, 252);
+	color: rgba(174, 236, 255, 0.9);
 }
 
 /**/
 .menu-im-se{
 	padding: 1.5rem; 
+}
+.m-icon{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 50%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 .menu-img{
 	border-radius: 50%;
@@ -59,6 +68,9 @@
 #firstsection{
 	background: #ffdbb0;
 }
+/**/
+#secondsection{
+}
 .abo::after{
 	content: "";
 	position: relative;
@@ -85,4 +97,23 @@
 	color: red;
 	font-size: 1.1rem;
 	align-items: center;
+}
+/*project*/
+.projecthead h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.hcb{
+	color: gray;
+}
+/****************************/
+.card{
+	background-color:linear-gradient(red,yellow);
 }
