@@ -1,27 +1,57 @@
 *{
 	margin: 0;
 }
-
 .mainmenu{
-	background:rgba(255, 144, 0, 0.9) ;
+	background:  rgb(17, 17, 61);
 	overflow: hidden;
 	height: 100vh;
 	position: fixed;
-	color: rgba(174, 236, 255, 0.9);
+	color: white;
 }
-
-/**/
+.nav22 ul{
+	list-style-type: none;
+	align-items: center;
+}
+.nav22 a{
+	text-decoration: none;
+	line-height: 3rem;
+	align-items: center;
+}
 .menu-im-se{
 	padding: 1.5rem; 
 }
+.nav22 iconify-icon {
+	font-size: 1.2rem;
+	color: blue;
+}
+.nav22 li:hover iconify-icon{
+	color: white;
+	transition: ease all 1s;
+}
+.nav22 a{
+	color: white;
+}
+.nav22 li:hover a{
+	color: blue;
+	transition: ease all 1s;
+}
 .m-icon{
-	height: 40px;
-	width: 40px;
-	background-color: white;
+	height: 35px;
+	width: 35px;
+	background-color: rgb(44, 39, 39);
 	border-radius: 50%;
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	margin: 0px 2px;
+}
+.m-icon a{
+	font-size: 1rem;
+	color: white;
+}
+.m-icon a:hover{
+	color: blue;
+	transition: ease all 1s;
 }
 .menu-img{
 	border-radius: 50%;
@@ -29,10 +59,12 @@
 	align-items: center;
 	border: 10px solid silver;
 }
+/*****/
 .banner{
 	position: absolute;
 	right: 0;
-	background-color: #ffdbb0;
+	background:  rgb(17, 17, 61);
+	color: white;
 }
 .main-banner{
 	background-image: url(image/ganesh.jpg);
@@ -48,12 +80,12 @@
 	left: 0;
 	top: 0;
 	bottom: 0;
-	background: rgba(255, 144, 0, 0.9);
+	background: linear-gradient(to right,rgba(26, 26, 114,0.8),rgb(44, 39, 39),rgb(17, 17, 61));
 	opacity: 0.9;
 }
 .banner-title{
 	text-align: center;
-	margin-top: 60vh;
+	margin-top: 50vh;
 	z-index: 1;
 	color: white;
 }
@@ -65,12 +97,6 @@
 	font-size: 2rem;
 }
 /**/
-#firstsection{
-	background: #ffdbb0;
-}
-/**/
-#secondsection{
-}
 .abo::after{
 	content: "";
 	position: relative;
@@ -97,6 +123,23 @@
 	color: red;
 	font-size: 1.1rem;
 	align-items: center;
+}/*skill*/
+.skill h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.card{
+	background: linear-gradient(to right,rgba(134, 55, 124,0.8),rgb(61, 61, 124));
+	border: none;
+	border-top-right-radius:30px;
+	color: white;
 }
 /*project*/
 .projecthead h1::after{
@@ -113,7 +156,47 @@
 .hcb{
 	color: gray;
 }
-/****************************/
-.card{
-	background-color:linear-gradient(red,yellow);
+.pofh{
+	overflow: hidden;
+}
+.pro-im:hover{
+	transform: scale(1.1);
+	transition: ease all 1s;
+}
+.probut{
+	border-bottom-left-radius: 22px;
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	padding: 7px 25px;
+	border: none;
+}
+.probut:hover{
+	color: black;
+	background-color: red;
+	transition: ease all 1s;
+}
+/***/
+.con-icon iconify-icon{
+	color: red;
+	font-size: 2rem;
+	border: 2px dotted black;
+	border-radius: 50%;
+	padding: 15px;
+	box-shadow: 0px 1px 10px red;
+}
+.confull:hover .con-icon iconify-icon{
+	color: blue;
+	box-shadow: 0px 2px 20px blue;
+}
+.con h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
 }
