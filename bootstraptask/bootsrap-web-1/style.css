@@ -21,7 +21,7 @@
 }
 .firstsection img{
 	position: relative;
-	animation: mymove 2s infinite;
+	animation: mymove 3s infinite;
 }
 @keyframes mymove{
 	from {bottom: 0px}
@@ -484,10 +484,6 @@
 	right: 0;
 	left: 0;
 }
-.client-row{
-}
-.client6{
-}
 .client6 img{
 	filter: grayscale(50%);
 }
@@ -495,16 +491,18 @@
 	filter: none;
 }
 
-
-
-
-
-
 /*-----seventhsection finish------*/
 
 .eighthsection{
 	padding-bottom: 5rem;
 }
+/* .cofulllo{ */
+	/* width:39%; */
+/* } */
+/* .cofullform{ */
+	/* width: 59%; */
+/* } */
+
 .contact{
 	text-align: center;
 	padding: 2.6rem 0rem;
