@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+}
+.firstnav{
+	background: white;
+}
+.nav-ul a{
+	color: red !important;
+}
+.nav-ul a:hover{
+	color: blue !important;
+}
+/*------banner----*/
+.slit-1{
+	background: black;
+}
+.b-img-1 img{
+	height: 100vh;
+}
+.b-img-1{
+	height: 100vh;
+}
+.b-img-1{
+	position: relative;
+}
+.main-content{
+	position: absolute;
+	top: 45%;
+	color: white;
+}
+.pan1{
+	border-radius: 50%;
+	height: 50vh !important;
+	position: absolute;
+	left: 45rem;
+	align-items: center;
+}
+/*------------------------**/
+#secondsection{
+	background: pink;
+}
+.abo::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.about img{
+	width: 100%;
+}
+.ab-me ul{
+	list-style-type: none;
+	padding: 0;
+	line-height: 2.5rem;
+}
+.ab-me li{
+	font-size: 1.2rem;
+}
+.ab-me span{
+	font-weight: bold;
+}
+.ab-me iconify-icon{
+	color: red;
+	font-size: 1.1rem;
+	align-items: center;
+}/*skill*/
+.skill h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.card{
+	background: linear-gradient(to right,rgba(134, 55, 124,0.8),rgb(61, 61, 124));
+	border: none;
+	border-top-right-radius:30px;
+	color: white;
+}
+/*--Resume--*/
+.resumehead h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+/*project*/
+.projecthead h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
+.hcb{
+	color: gray;
+}
+.pro-im{
+	overflow: hidden;
+}
+.pro-im img:hover{
+	transform: scale(1.1);
+	transition: ease all 1s;
+}
+.probut{
+	border-bottom-left-radius: 22px;
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	padding: 7px 25px;
+	border: none;
+}
+.probut:hover{
+	color: black;
+	background-color: red;
+	transition: ease all 1s;
+}
+/***/
+.con-icon iconify-icon{
+	color: red;
+	font-size: 2rem;
+	border: 2px dotted black;
+	border-radius: 50%;
+	padding: 15px;
+	box-shadow: 0px 1px 10px red;
+}
+.confull:hover .con-icon iconify-icon{
+	color: blue;
+	box-shadow: 0px 2px 20px blue;
+}
+.con h1::after{
+	content: "";
+	position: relative;
+	margin: auto;
+	height: 3px;
+	width: 7%;
+	background: red;
+	border-radius: 10px;
+	display: flex;
+	top: 0.5rem;
+}
